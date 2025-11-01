@@ -3,82 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music</title>
-    <link rel = "stylesheet" href = "styles.css">
-    <script src="https://kit.fontawesome.com/6a3865f16c.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+    <link rel = "stylesheet" href = "home.css">
 </head>
 <body>
+     <header>Komi's Favorite Songs</header>
     <div class="container">
-    <div class="music">
-    <nav>
-        <a href = "home.html">
-        <div class="circle1">
-            <i class="fa-solid fa-angle-left"></i>
-            </div>  
-            </a>
-            <div class="circle2">
-            <i class="fa-solid fa-bars"></i>
-        </div>
-    </nav>
-    <img src ="Images/mitski.png" class = "mitski">
-    <h1> Your Best American Girl</h1>
-    <p>Mitski</p>
-    <audio  id = "song">
-    <source src = "audio/american.mp3" type = "audio/mpeg">
-    
-    </audio>
-    <input type ="range" value ="0" id ="progress">
-
-    <div class="controls">
-    
-       <div onclick = "playPause()" ><i class="fa-solid fa-play" id = "ctrlIcon"></i></div>
-       
-    </div>
-    </div>
-
-<script>
-        let progress = document.getElementById("progress");
-        let song = document.getElementById("song");
-        let ctrlIcon = document.getElementById("ctrlIcon");
-
-        song.onloadedmetadata = function(){
-            progress.max = song.duration;
-            progress.value = song.currentTime;
-        
-        }
-
-        function playPause(){
-            if(ctrlIcon.classList.contains("fa-pause")){
-                song.pause();
-                ctrlIcon.classList.remove("fa-pause");
-                ctrlIcon.classList.add("fa-play");
-
-            }
-            else{
-                song.play();
-                ctrlIcon.classList.add("fa-pause");
-                ctrlIcon.classList.remove   ("fa-play");
-            }
-         
-        }
-
-        if (song.play()){
-            setInterval(() =>{progress.value = song.currentTime;},500);
-            
-        }  
-
-         progress.onchange = function(){
-                song.play();
-                song.currentTime = progress.value
-                ctrlIcon.classList.add(fa-pause);
-                ctrlIcon.classList.remove(fa-play);
-                
-            }
-
-
-</script>
-    
-
+           <a href ="blue.html">
+        <img class = "blue" src = "Images/bluesky.jpeg">
+     
+        <div class="b">Mr. Blue Sky</div>
+        </a>
+        <a href = "heart.html">
+        <img class = "break" src = "Images/heartbreak.png">
+    <div class="L">Late Night and Heart Breaks</div>
+        </a>
+        <a href = "inarticulation.html">
+        <img class = "inart" src = "Images/inarticulation.jpg">
+    <div class="i">Inarticulation</div>
+        </a>
+        <a href = "index.html">
+        <img class = "mitski" src = "Images/mitski.png">
+    <div class="y">Your Best American Girl</div>
+        </a>
+        <a href = "september.html">
+        <img class = "september" src = "Images/september.jpg">
+    <div class="s">September</div>
+        </a>
+        <a href = "sweet.html">
+        <img class = "sweet" src = "Images/sweet.png">
+    <div class="a">Sweet Dreams</div>
+        </a>
+    </div> 
 
 </body>
 </html>
