@@ -32,7 +32,7 @@ nav{
     margin-bottom: 30px;
     }
 
-nav .circle{
+nav .circle1{
     border-radius:50%;
     width:40px;
     height:40px;
@@ -42,6 +42,15 @@ nav .circle{
     box-shadow:0px 5px 10px rgba(255, 26, 26, 0.22);
 }
 
+nav .circle2{
+    border-radius:50%;
+    width:40px;
+    height:40px;
+    line-height: 40px;
+    background: white;
+    color: pink;
+    box-shadow:0px 5px 10px rgba(255, 26, 26, 0.22);
+}
 .mitski{
     width: 220px;
     border-radius: 50%;
