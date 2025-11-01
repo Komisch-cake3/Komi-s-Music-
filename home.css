@@ -13,8 +13,65 @@ header{
     left:400px;
 }
 
-.container{
-    height: 500px;
-    width: 500px;
-    background: white;
+
+
+.blue{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 8px solid white;
+    position: absolute;
+    left: 1000px;
+    top: 600px;
+}
+
+.break{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 8px solid white;
+    position: absolute;
+    left: 600px;
+    top: 600px;
+}
+
+.inart{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 8px solid white;
+    position: absolute;
+    left: 200px;
+    top: 600px;
+
+}
+
+.mitski{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 8px solid white;
+    position: absolute;
+    left: 1000px;
+    top:150px;
+}
+
+.september{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 8px solid white;
+    position: absolute;
+    left: 600px;
+    top:150px;
+}
+
+.sweet{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 8px solid white;
+    position: absolute;
+    left: 200px;
+    top:150px;
 }
