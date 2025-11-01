@@ -1,11 +1,31 @@
-body{
-    height:500px;
-    background-color: rgb(252, 220, 255);
-    width:500px;
+@font-face {
+    font-family: 'Sucker';
+    src: url("Font/BreakSuckerDemoRegular.ttf");
 }
+
+
 
 *{
     margin: 0;
     padding: 0;
-    font-family:;
+    font-family:'Sucker', sans-serif;
+    box-sizing: border-box;
+}
+
+.music{
+    background-color: white;
+    width: 400px;
+    padding: 25px 35px;
+    text-align: center;
+
+}
+
+.container{
+    width: 100%;
+    height:100vh;
+    background: rgb(255, 185, 207);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
