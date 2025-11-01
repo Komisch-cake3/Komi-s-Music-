@@ -1,0 +1,119 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Sucker', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 100%;
+    height:100vh;
+    background: rgb(185, 162, 133);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.music{
+    background-color: white;
+    width: 400px;
+    padding: 25px 35px;
+    text-align: center;
+
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    }
+
+nav .circle1{
+    border-radius:50%;
+    width:40px;
+    height:40px;
+    line-height: 40px;
+    background: white;
+    color: rgb(185, 162, 133);
+    box-shadow:0px 10px 20px rgba(139, 108, 7, 0.22);
+}
+
+nav .circle2{
+    border-radius:50%;
+    width:40px;
+    height:40px;
+    line-height: 40px;
+    background: white;
+    color:rgb(185, 162, 133);
+    box-shadow:00px 10px 20px rgba(139, 108, 7, 0.22);
+}
+.mitski{
+    width: 220px;
+    border-radius: 50%;
+    border: 8px solid white;
+    box-shadow: 0px 10px 20px rgba(139, 108, 7, 0.22);
+}
+
+.music h1{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(185, 162, 133);
+    margin-top:20px;
+}
+
+.music p{
+    font-size: 14px;
+    color: rgb(185, 162, 133);
+
+}
+
+#progress{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 6px;
+    background:rgb(185, 162, 133);
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 40px 0;
+}
+
+#progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 8px solid rgb(255, 231, 199);
+    box-shadow: 0px 10px 20px rgba(139, 108, 7, 0.22);
+
+
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls div{
+    width: 60px;
+    height:60px;
+    margin:20px;
+    background:white;
+    display:inline-flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 50%;
+    color:rgb(185, 162, 133);
+    box-shadow: 0px 10px 20px rgba(139, 108, 7, 0.22);
+    cursor:pointer;
+}
+
+.controls div:nth-child(1){
+    transform: scale(1.5);
+    background: rgb(185, 162, 133);
+    color: rgb(255, 255, 255);
+}
