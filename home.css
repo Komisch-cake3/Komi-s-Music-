@@ -70,7 +70,7 @@ header{
     border-radius: 50%;
     border: 8px solid white;
     position: absolute;
-    left: 600px;
+    right: 600px;
     top:150px;
     transition: transform 0.3s;
 }
@@ -81,7 +81,7 @@ header{
     border-radius: 50%;
     border: 8px solid white;
     position: absolute;
-    left: 200px;
+    left:200px;
     top:150px;
     transition: transform 0.3s;
 
@@ -115,6 +115,51 @@ header{
     font-size: 20px;
     position: absolute;
     left:1070px;
+    top:550px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(45, 65, 72);
+}
+
+.L{
+    font-size: 20px;
+    position: absolute;
+    left:610px;
+    top:550px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(45, 65, 72);
+}
+
+.y{
+    font-size: 20px;
+    position: absolute;
+    left:1025px;
+    top:100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(45, 65, 72);
+}
+
+.s{
+    font-size: 20px;
+    position: absolute;
+    left:685px;
+    top:100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(45, 65, 72);
+}
+
+.a{
+    font-size: 20px;
+    position: absolute;
+    left:278px;
+    top:100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(45, 65, 72);
+}
+
+.i{
+    font-size: 20px;
+    position: absolute;
+    left:278px;
     top:550px;
     font-family: Arial, Helvetica, sans-serif;
     color:rgb(45, 65, 72);
